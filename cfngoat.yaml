@@ -940,6 +940,10 @@ Resources:
           Value: ydanawala
         - Key: git_org
           Value: bridgecrewio
+      BucketEncryption:
+        ServerSideEncryptionConfiguration:
+          - ServerSideEncryptionByDefault:
+              SSEAlgorithm: AES256
 
   ### TODO - Custom Upload of insecure document
   FinancialsBucket:
